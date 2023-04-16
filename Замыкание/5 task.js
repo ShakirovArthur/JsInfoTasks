@@ -12,5 +12,5 @@ function inArray(arr) {
   };
 }
 
-console.log(arr.filter(inBetween(3, 6)));
+console.log(arr.filter(inBetween(3, 6))); //filter((x)=>{x >= a && x <= b;})
 console.log(arr.filter(inArray([1, 2, 10])));
